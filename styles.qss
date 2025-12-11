@@ -1,0 +1,83 @@
+/* Modern Dark Theme for AI Text Scanner */
+
+QMainWindow {
+    background-color: #1e1e2e; /* Dark Blue-Grey Background */
+    color: #cdd6f4;
+}
+
+QWidget {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #cdd6f4;
+}
+
+/* Push Buttons */
+QPushButton {
+    background-color: #313244;
+    border: 1px solid #45475a;
+    border-radius: 6px;
+    padding: 8px 16px;
+    color: #cdd6f4;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #45475a;
+    border-color: #585b70;
+}
+
+QPushButton:pressed {
+    background-color: #585b70;
+}
+
+QPushButton#actionButton {
+    background-color: #89b4fa; /* Accent Blue */
+    color: #1e1e2e; /* Dark text for contrast */
+    border: none;
+}
+
+QPushButton#actionButton:hover {
+    background-color: #b4befe;
+}
+
+/* Text Edit Area */
+QTextEdit {
+    background-color: #181825;
+    border: 1px solid #313244;
+    border-radius: 6px;
+    padding: 10px;
+    color: #a6adc8;
+    selection-background-color: #45475a;
+}
+
+/* Graphics View / Image Area */
+QGraphicsView {
+    background-color: #11111b;
+    border: 2px dashed #313244;
+    border-radius: 8px;
+}
+
+/* Labels */
+QLabel {
+    color: #bac2de;
+    font-weight: 500;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    border: none;
+    background: #1e1e2e;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #45475a;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
